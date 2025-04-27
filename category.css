@@ -1,0 +1,23 @@
+.category{
+    border: 1px solid rgb(211, 112, 188);
+    width: 280px;
+    height: 1000px;
+    margin: 10px;
+}
+.category h1{
+    text-align: center;  
+}
+.category ul{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+.category ul li{
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 20px;
+    list-style: none;
+}
