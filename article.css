@@ -1,11 +1,9 @@
 .outer{
     width: 100%;
-    height: auto;
     padding:20px ;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: absolute;
     background-color: azure;
     flex-wrap: wrap;
 }
@@ -36,12 +34,7 @@
     flex-direction: column;
     align-content: flex-start;
 }
-.category{
-    border: 1px solid rgb(211, 112, 188);
-    width: 280px;
-    height: 1000px;
-    margin: 10px;
-}
+
 h2{
     margin: 5px;
     color: rgb(19, 16, 18);
